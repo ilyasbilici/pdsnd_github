@@ -16,3 +16,5 @@ chicago.csv
 ### Credits
 Python Standard Library: https://docs.python.org/3/library/ Pandas Library User Guide: https://pandas.pydata.org/docs/user_guide/index.html Numpy Library Documentation: https://numpy.org/doc/
 
+### Project Contributor
+Ýlyas Bilici
