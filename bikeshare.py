@@ -17,21 +17,21 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    city = input("Please write the city name: ").lower()
+    city = input("Please insert the city name: ").lower()
 
     if city not in ['chicago', 'new york city', 'washington']:
-        city = input("Please write the city name: ").lower()
+        city = input("Please insert the city name: ").lower()
 
     # get user input for month (all, january, february, ... , june)
 
-    month = input("Please write month name: ").lower()
+    month = input("Please insert month name: ").lower()
     if month not in ['january','february','march','april','may','june','all']:
-        month = input("Please write month name: ").lower()
+        month = input("Please insert month name: ").lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input("Please write day of week: ").lower()
+    day = input("Please insert day of week: ").lower()
     if day not in ['monday','tuesday','wednesday','thursday','friday','saturday','sunday','all']:
-        day = input("Please write day name: ").lower()
+        day = input("Please insert day name: ").lower()
 
     print('-' * 40)
     return city, month, day
